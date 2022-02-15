@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="vendor/bootstrap-4.6.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="bg-dark">
+    <div class="container col-8 col-sm-8 col-lg-6 col-xl-3">
+      <div class="card card-login mx-auto mt-5">
+        <div class="card-header card-header-login">
+          <img src="images/logo.jpg">
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <div class="form-label-group">
+                <label for="username">Tài khoản</label>
+                <input type="email" id="username" name="username" class="form-control" placeholder="Tài khoản" required="required" autofocus="autofocus">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-label-group">
+                <label for="password">Mật khẩu</label>
+                <input type="password" id="password" name="password" class="form-control" placeholder="Mật khẩu" required="required" name="password">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="remember-me" name="remember-me">
+                  Nhớ mật khẩu
+                </label>
+              </div>
+            </div>
+            <a class="btn btn-primary btn-block" href="index.html">Đăng nhập</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>
+  
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  </body>
+</html>
